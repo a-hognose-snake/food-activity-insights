@@ -1,0 +1,89 @@
+
+# ==========================================
+# INF3862 - Food & Activity Insights
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Entornos virtuales y credenciales
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.json.credentials
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Datasets originales del proyecto
+# ==========================================
+
+# Food.com y wearable (carpeta completa)
+/datos_proyecto_INF3862/
+
+# Otras carpetas de datos locales
+/datos/*
+!/datos/README.md
+
+/data/*
+!/data/README.md
+
+# Archivos de datos en otras ubicaciones
+*.csv
+*.jsonl
+*.jsonl.gz
+*.parquet
+*.feather
+*.arrow
+
+# Bases de datos locales
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
+# Resultados temporales y caché
+/tmp/
+/cache/
+*.log
+*.tmp
+*.bak
+~$*
+
+# Distribuciones de Python
+build/
+dist/
+*.egg-info/
+
+# ==========================================
+# Archivos que SÍ deben versionarse
+# ==========================================
+
+# README.md
+# decisiones.md
+# entregas/E1/informe.pdf
+# entregas/E2/
+# entregas/E3/
+# *.py
+# *.ipynb
+# pyproject.toml
+# uv.lock
